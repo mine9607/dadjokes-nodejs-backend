@@ -1,0 +1,14 @@
+<%- include("header.ejs")%>
+
+<div class="row row-cols-2 justify-content-center align-items-center py-5">
+  <div class="col">
+    <div class="card card-cover h-75 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+      <div class="d-flex flex-column h-100 text-white text-shadow-1">
+        <h1 class="m-4 display-5 text-center">Dad Joke of the Day</h1>
+        <img src="/images/dadjokes.jpg" alt="" />
+        <h3 class="m-4 display-6 lh-1 text-center"><%=joke%></h3>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include("footer.ejs")%>

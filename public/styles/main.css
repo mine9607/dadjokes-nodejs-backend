@@ -1,0 +1,6 @@
+.bg-image-card {
+  background-image: url("../images/dadjokes.jpg"); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
