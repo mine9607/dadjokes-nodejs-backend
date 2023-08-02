@@ -1,7 +1,7 @@
 {
   "name": "usepublicapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "Connects to a public API using Express &amp; Node with Axios to generate a random dad joke on refresh.",
   "main": "index.js",
   "type": "module",
   "scripts": {
